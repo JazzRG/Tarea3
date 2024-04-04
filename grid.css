@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 12px;
+}
+
+.cara{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
